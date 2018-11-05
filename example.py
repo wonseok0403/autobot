@@ -14,11 +14,11 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 bot = InstaBot(
-    login="wonseog81",
+    login="neatthewriter",
     password="Wonseok786!",
     like_per_day=1000,
     comments_per_day=400,
-    tag_list=['창업', '맛집', '쇼핑몰', '온라인쇼핑몰', '팝니다', '스타트업'],
+    tag_list=['사랑','페미니즘','소설','수필','가을'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
@@ -32,21 +32,15 @@ bot = InstaBot(
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
     comment_list=[["글 잘 읽었습니다.", "멋진 글이군요", "좋아요 하고 갑니다."],
-                  ["인스타그램 자동 홍보 오토봇입니다. 클라우드기반 자동 좋아요/팔로잉 등 서비스를 원하시나요?."],
-                  ["저렴한 비용에 해드리고 있습니다."],
-                  ["DM 주시면 자세히 설명해드리겠습니다."],
+                  ["인스타그램에 수필을 쓰고있는 neat 입니다"],
+                  ["한번 들려서 글 읽어주세요."],
+                  ["정기 출판 할 때 까지 팔로우 해주시면 감사하겠습니다."],
                   [".", "..", "...", "!", "!!", "!!!"]],
     # Use unwanted_username_list to block usernames containing a string
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
     unwanted_username_list=[
-        'second', 'stuff', 'art', 'project', 'love', 'life', 'food', 'blog',
-        'free', 'keren', 'photo', 'graphy', 'indo', 'travel', 'art', 'shop',
-        'store', 'sex', 'toko', 'jual', 'online', 'murah', 'jam', 'kaos',
-        'case', 'baju', 'fashion', 'corp', 'tas', 'butik', 'grosir', 'karpet',
-        'sosis', 'salon', 'skin', 'care', 'cloth', 'tech', 'rental', 'kamera',
-        'beauty', 'express', 'kredit', 'collection', 'impor', 'preloved',
-        'follow', 'follower', 'gain', '.id', '_id', 'bags'
+        'sea_gave_am3'
     ],
     unfollow_whitelist=['example_user_1', 'example_user_2'])
 while True:
