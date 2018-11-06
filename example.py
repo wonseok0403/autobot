@@ -14,11 +14,11 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 bot = InstaBot(
-    login="neatthewriter",
+    login="wonseog81",
     password="Wonseok786!",
     like_per_day=1000,
     comments_per_day=400,
-    tag_list=['소설','수필','가을','시','편지'],
+    tag_list=['미용','중고차','애견','창업','쇼핑몰'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
