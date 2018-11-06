@@ -32,9 +32,9 @@ bot = InstaBot(
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
     comment_list=[["글 잘 읽었습니다.", "멋진 글이군요", "좋아요 하고 갑니다."],
-                  ["인스타그램에 수필을 쓰고있는 neat 입니다"],
-                  ["한번 들려서 글 읽어주세요."],
-                  ["정기 출판 할 때 까지 팔로우 해주시면 감사하겠습니다."],
+                  ["인스타그램 자동 홍보 매크로 입니다."],
+                  ["이제 창업에 집중하시고 매크로를 이용해보세요"],
+                  ["DM 부탁 드립니다."],
                   [".", "..", "...", "!", "!!", "!!!"]],
     # Use unwanted_username_list to block usernames containing a string
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
