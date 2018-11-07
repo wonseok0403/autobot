@@ -14,11 +14,11 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 bot = InstaBot(
-    login="wonseog81",
+    login="neatthewriter",
     password="Wonseok786!",
     like_per_day=1000,
     comments_per_day=400,
-    tag_list=['미용','중고차','애견','창업','쇼핑몰'],
+    tag_list=['가을', '소설', '수필', '편지', '잡지', '계절', '30대', '페미니즘', '리벤지포르노','리벤지'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
@@ -32,9 +32,9 @@ bot = InstaBot(
     # List of list of words, each of which will be used to generate comment
     # For example: "This shot feels wow!"
     comment_list=[["글 잘 읽었습니다.", "멋진 글이군요", "좋아요 하고 갑니다."],
-                  ["인스타그램 자동 홍보 매크로 입니다."],
-                  ["이제 창업에 집중하시고 매크로를 이용해보세요"],
-                  ["DM 부탁 드립니다."],
+                  ["글쟁이 NEAT 라고 합니다."],
+                  ["월간 구독 출간을 하게 되었는데 인스타 한번 들려주세요."],
+                  ["감사하고 고맙습니다.."],
                   [".", "..", "...", "!", "!!", "!!!"]],
     # Use unwanted_username_list to block usernames containing a string
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
